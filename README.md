@@ -24,4 +24,4 @@ Try to match 16 cards to win the game.
 
 ## Note ##
 * Because I did not know how to use git and git hub when I worked on this project, this project has few commits.
-* This project is part of frontend-nanodegree.
+* This project is part of Udacity's frontend-nanodegree.
