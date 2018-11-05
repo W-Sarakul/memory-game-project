@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Prompt:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Memory Game 1st Try</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <h1>Memory Game</h1>
+    </header>
+    <div class="container">
+      <!-- This from starter code -->
+      <section class="score">
+        <div class="timer">
+          30 seconds remaining
+        </div>
+        <ul class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </ul>
+        <span class="move">3</span> <p class="moves"> moves left</p>
+        <div class="button-container">
+          <div class="reset btn btn-outline-primary">
+            <i class="fas fa-redo-alt"></i>
+          </div>
+          <div class="start btn btn-outline-primary">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+      </section>
+      <!-- Congratulations message -->
+
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p class="congrat">You Win!</p>
+          <p>You use <span class="used-move"></span> moves to win.</p>
+          <p>You got <span class="display-star"></span></p>
+          <p>Click close button and play again.</p>
+        </div>
+      </div>
+      <!-- This from starter code -->
+      <script src="js/app.js" charset="utf-8"></script>
+    </div>
+
+  </body>
+</html>
